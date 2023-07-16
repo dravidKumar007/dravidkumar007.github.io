@@ -1,0 +1,347 @@
+
+
+
+body{
+    margin: none;
+}
+
+.nav{
+    background-color: rgb(0, 0, 5);
+    color:aliceblue;
+    height:55px;
+    width:100%;
+    position: sticky;
+    top: 0;
+}
+.hambar{
+    display: var(--DISP);
+    float:right;
+    margin-right:20px;
+    margin-top: 17px;
+    user-select: none;
+}
+.hambar:hover{
+    color: #0b0b0b;
+    background-color: whitesmoke;
+    padding:10px;
+    margin-right:10px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+#bar{
+    display: none;
+}
+.newsel{
+    
+   position: fixed;
+   background-color: #000000;
+   color: wheat;
+   margin-left:-80px;
+   padding-left: 20px;
+   padding-top:20px;
+   padding-right: 12px;
+   margin-top: 10px;
+   height:100vh;
+}
+.la{
+    padding-top:14vh;
+    display: block;
+}
+.err:hover{
+   padding-right: 0%;
+   margin:0.5px ;
+}
+
+
+.right{
+    float:right;
+    padding-right: 10px;
+    display:visible;
+    
+}
+.con{
+    vertical-align: middle;
+    font-family:sans-serif;
+    font-weight:100;
+    font-size: medium;
+    margin:5px;
+    color: azure;
+    text-decoration: none;
+  
+}
+
+.left{  
+  float:left;
+   margin: 10px;
+   border: 2px solid whitesmoke;
+}
+.con:hover:not(.active){
+    background-color: rgba(9, 9, 39, 0.485);
+  
+    font-size: large;
+}
+
+.proimg{
+     width:400px;
+     border-radius: 50px;
+     padding: 20px;
+     border:10px solid #000000;
+
+}
+.info{
+    width: auto;
+    font-size: auto;
+    margin-top:50px;
+    padding-top:100px;
+    float:left;
+   margin: 10px;
+   
+}
+.home{
+    width: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid gray;
+}
+.name{
+    margin:auto;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:500%;
+background: linear-gradient(90deg, #30c4ff, #e123ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow:  2px 2px 4px rgba(246, 85, 255, 0.5);;
+}
+.work{
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:200%;
+    
+    background: linear-gradient(to bottom, #4aff8a, #00ff48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:  2px 2px 2px rgba(12, 72, 60, 0.133);;
+
+}
+
+.hi{
+    font-size: 300%;
+    margin: auto;
+    background: linear-gradient(to bottom, #0b0b0b, #2c2c2cb0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-shadow:  2px 2px 2px rgba(12, 72, 60, 0.133);
+
+}
+.area{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:200%;
+    color: whitesmoke;
+    background: linear-gradient(to right,red,blue);
+}
+.red{
+    background: linear-gradient(to right,red,rgb(255, 0, 115));
+}
+   
+
+.about{
+    color:whitesmoke;
+ font-size: 300%;
+ text-align: center;
+ text-shadow:  2px 2px 2px rgba(8, 65, 54, 0.263);
+}
+.about:hover{
+    text-decoration:underline;
+}
+.grid{
+display: grid;
+columns: 3;
+}
+  
+
+.content{
+    color:whitesmoke;
+    font-size: 160%;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+   text-shadow:  2px 2px 2px rgba(8, 65, 54, 0.263);
+}
+#skills{
+    background-color: #090808;
+    margin-top:-33px;
+}
+.skill{
+    background: linear-gradient(to right, #6500d1, #ff006ab0);
+   color: whitesmoke;
+   font-family:monospace ;
+   padding-left:10%;
+   font-size:300%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+}
+.ps{
+ color:ghostwhite;
+ font-family:  Courier, monospace;
+ font-size: xx-large;
+ text-align: center;
+ list-style-type:decimal;
+ margin: auto;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+.ps:hover{
+    background-color: rgb(81, 80, 80) ;
+   margin: 0;
+}
+.cerhed{
+    font-size: 300%;
+    font-family:  'Helvetica Neue', sans-serif;
+    text-align: center;
+   text-shadow:  2px 2px 2px rgba(8, 65, 54, 0.263);
+   background: linear-gradient(to bottom, #0b0b0b, #2c2c2cb0);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.bg{
+    width: 100%;
+    height: 570px;
+    margin-top: -10px;
+    background:linear-gradient(to bottom, rgba(0, 255, 217, 0.521), rgba(6, 251, 137, 0.831));
+}
+.lt{
+   float:left;
+   margin-left:2px;
+   margin-right:0px;
+}
+.rt{
+    float: right;
+    margin-right: 2px;
+    margin-left:0px;
+}
+.nxt{
+  font-size:7vw;
+padding: 0;
+margin-top:200px;
+cursor: pointer;
+user-select: none;
+}
+.lt:hover{
+    margin-right: -4%;
+}
+.nxt:hover{
+    background-color: aliceblue;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px#0b0b0b68;
+    padding-left:2%;
+    padding-right: 2%;
+
+}
+#s2 ,#s3,#s4{
+    display:none;
+}
+  
+  #cert {
+    margin-left: var(--MARG);
+    height: 60vw;
+    width: 70vw;
+    max-width: 700px;
+    margin-top:10px;
+    max-width: 500px;
+    max-height: 400px;
+    margin-top: var(--MART);
+
+  }
+  
+*{
+    
+    --MARG:30%;
+    --MART:5%;
+    --MARC:30%;
+    --DISP:none;
+}
+  @media screen and (max-width: 1037px) {
+  *{
+    --MARG:20%;
+    --MART:10%;
+    --MARC:20%;
+  
+ }
+
+}@media screen and (max-width: 737px) {
+    *{
+      --MARG:10%;
+      --MART:20%;
+     
+   } 
+}
+@media screen and (max-width: 537px)   {
+    .right{
+     display:none;
+    }
+    *{
+     --DISP:inline;
+    }
+    
+   
+ }
+  #certc1{
+    margin-left:var(--MARC);
+    height: 90%;
+    width: 60%;
+    max-width: 400px;
+
+  }
+  footer{
+    
+    margin-top: -30px;
+    background-color: #0c0c0ce2;
+    color:aliceblue;
+    padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .fa-linkedin-in{
+    padding:20px 15px;
+
+  }
+  .fa-linkedin-in:hover{
+    background-color: royalblue;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+ 
+ .icon{
+    border:solid 2px whitesmoke;
+    margin-top:10px;
+    padding: 10px;
+ 
+}
+.fa-github{
+    padding:20px 15px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.fa-github:hover{
+    background-color: #000000;
+    color:white;
+    border-radius: 10px;
+}
+hr{
+    width: 80vw;
+}
+.l{
+    font-weight: 100;
+}
+.fa-github:visited{
+    color: whitesmoke;
+}
